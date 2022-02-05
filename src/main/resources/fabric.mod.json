@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "testmod",
+  "version": "version",
+  "name": "testmod",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "testmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loaderVersion}",
+    "fabric": ">=${fabricVersion}",
+    "fabric-language-kotlin": ">=${fabricKotlinVersion}",
+    "minecraft": "~${minecraftVersion}",
+    "java": ">=${javaVersion}"
+  }
+}

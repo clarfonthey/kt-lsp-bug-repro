@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "testmod.testmod.mixins",
+  "compatibilityLevel": "JAVA_${javaVersion}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "CrashReport_noopMixin"
+  ],
+  "client": [
+  ]
+}

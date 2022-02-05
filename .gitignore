@@ -1,0 +1,7 @@
+build/
+classes/
+out/
+run/
+.gradle/
+*.class
+*.tar.xz
